@@ -73,8 +73,6 @@ create table favourite_discount(
 );
 
 
---Dependencies
-
 drop table if exists discounts_tag cascade;
 create table discounts_tag(
                               id serial primary key,
